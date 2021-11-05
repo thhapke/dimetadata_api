@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://dcat-ap.de/def/plannedAvailability"
+         xml:base="http://dcat-ap.de/def/plannedAvailability"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcat="http://www.w3.org/ns/dcat#" 
+         xmlns:dct="http://purl.org/dc/terms/" 
+         xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+         xmlns:owl="http://www.w3.org/2002/07/owl#" 
+         xmlns:org="http://www.w3.org/ns/org#" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#" 
+         xmlns:void="http://rdfs.org/ns/void#" 
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         >
+  <owl:Ontology rdf:about="http://dcat-ap.de/def/plannedAvailability">
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <owl:versionIRI rdf:resource="http://dcat-ap.de/def/plannedAvailability/1.0/"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Diese Verfügbarkeitsgrade geben an, wie lange geplant ist das Dokument verfügbar zu halten.</rdfs:comment>
+  </owl:Ontology>
+  <skos:ConceptScheme rdf:about="http://dcat-ap.de/def/plannedAvailability">
+    <rdfs:label xml:lang="de">Liste geplanter Verfügbarkeitsgrade</rdfs:label>
+    <skos:prefLabel xml:lang="de">Liste geplanter Verfügbarkeitsgrade</skos:prefLabel>
+    <dct:identifier>http://www.dcat-ap.de/def/plannedAvailability</dct:identifier>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://dcat-ap.de/def/plannedAvailability/temporary">
+    <dc:identifier>temporary</dc:identifier>
+    <skos:topConceptOf rdf:resource="http://dcat-ap.de/def/plannedAvailability"/>
+    <skos:inScheme rdf:resource="http://dcat-ap.de/def/plannedAvailability"/>
+    <skos:prefLabel xml:lang="de">Daten können jederzeit verschwinden.</skos:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+        <skos-xl:literalForm xml:lang="de">Daten können jederzeit verschwinden.</skos-xl:literalForm>
+        <rdfs:label xml:lang="de">Daten können jederzeit verschwinden.</rdfs:label>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos:exactMatch rdf:resource="http://dcat-ap.de/def/plannedAvailability/temporary"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://dcat-ap.de/def/plannedAvailability/experimental">
+    <dc:identifier>experimental</dc:identifier>
+    <skos:topConceptOf rdf:resource="http://dcat-ap.de/def/plannedAvailability"/>
+    <skos:inScheme rdf:resource="http://dcat-ap.de/def/plannedAvailability"/>
+    <skos:prefLabel xml:lang="de">Daten versuchsweise verfügbar, sind aber noch etwa ein Jahr erreichbar.</skos:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+        <skos-xl:literalForm xml:lang="de">Daten versuchsweise verfügbar, sind aber noch etwa ein Jahr erreichbar.</skos-xl:literalForm>
+        <rdfs:label xml:lang="de">Daten versuchsweise verfügbar, sind aber noch etwa ein Jahr erreichbar.</rdfs:label>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos:exactMatch rdf:resource="http://dcat-ap.de/def/plannedAvailability/experimental"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://dcat-ap.de/def/plannedAvailability/available">
+    <dc:identifier>available</dc:identifier>
+    <skos:topConceptOf rdf:resource="http://dcat-ap.de/def/plannedAvailability"/>
+    <skos:inScheme rdf:resource="http://dcat-ap.de/def/plannedAvailability"/>
+    <skos:prefLabel xml:lang="de">Daten sind für einige Jahre verfügbar, mittelfristige Planung</skos:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+        <skos-xl:literalForm xml:lang="de">Daten sind für einige Jahre verfügbar, mittelfristige Planung</skos-xl:literalForm>
+        <rdfs:label xml:lang="de">Daten sind für einige Jahre verfügbar, mittelfristige Planung</rdfs:label>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos:exactMatch rdf:resource="http://dcat-ap.de/def/plannedAvailability/available"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://dcat-ap.de/def/plannedAvailability/stable">
+    <dc:identifier>stable</dc:identifier>
+    <skos:topConceptOf rdf:resource="http://dcat-ap.de/def/plannedAvailability"/>
+    <skos:inScheme rdf:resource="http://dcat-ap.de/def/plannedAvailability"/>
+    <skos:prefLabel xml:lang="de">Daten werden langfristig erhältlich bleiben.</skos:prefLabel>
+    <skos-xl:prefLabel>
+      <skos-xl:Label>
+        <rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+        <skos-xl:literalForm xml:lang="de">Daten werden langfristig erhältlich bleiben.</skos-xl:literalForm>
+        <rdfs:label xml:lang="de">Daten werden langfristig erhältlich bleiben.</rdfs:label>
+      </skos-xl:Label>
+    </skos-xl:prefLabel>
+    <skos:exactMatch rdf:resource="http://dcat-ap.de/def/plannedAvailability/stable"/>
+  </skos:Concept>
+</rdf:RDF>
