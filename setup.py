@@ -15,7 +15,7 @@ setuptools.setup(
     version="0.0.1",
     author="Thorsten Hapke",
     author_email="thorsten.hapke@sap.com",
-    description="Package using SAP Metadata Management API Business HUB.",
+    description="Python package using SAP Metadata Management API Business HUB.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     project_urls={'SAP Metadata Management API Business HUB':"https://api.sap.com/api/metadata/overview"},
